@@ -10,6 +10,8 @@ def main():
     a, b = get_numbers()
     print(sum(a, b))
 
+print("adding text to test commit")
+
 
 if __name__ == "__main__":
     main()
