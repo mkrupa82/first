@@ -7,8 +7,9 @@ def get_numbers():
     return a, b
 
 def main():
-    print(sum(get_numbers))
+    a, b = get_numbers()
+    print(sum(a, b))
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
