@@ -1,9 +1,14 @@
 def sum(a, b):
     return a + b
 
+def get_numbers():
+    a = float(input("a: "))
+    b = float(input("b: "))
+    return a, b
 
 def main():
-    print(sum(4, 5))
+    a, b = get_numbers()
+    print(sum(a, b))
 
 
 if __name__ == "__main__":
